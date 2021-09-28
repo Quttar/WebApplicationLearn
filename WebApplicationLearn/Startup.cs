@@ -41,7 +41,7 @@ namespace WebApplicationLearn
                     await context.Response.WriteAsync("hello world");
                 });
                 
-                endpoints.MapGet("/list_services", async context =>
+                endpoints.MapGet("/table", async context =>
                 {
                     StringBuilder sb = new StringBuilder();
                     sb.AppendLine("<table>");
