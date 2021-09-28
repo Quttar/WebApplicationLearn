@@ -40,7 +40,12 @@ namespace WebApplicationLearn
                 {
                     await context.Response.WriteAsync("hello world");
                 });
-                
+
+                endpoints.MapGet("test", async context =>
+                {
+                    await context.Response.WriteAsync("Тестовое сообщение");
+                });
+
                 endpoints.MapGet("/table", async context =>
                 {
                     StringBuilder sb = new StringBuilder();
