@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationLearn", "WebApplicationLearn\WebApplicationLearn.csproj", "{D8B14717-D3FE-4883-BB2C-2ECC83F3CCAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkLibrary", "..\WebApplicationVkApi\VkLibrary\VkLibrary.csproj", "{913402DE-A062-42CB-856A-56DF9F6623B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B14717-D3FE-4883-BB2C-2ECC83F3CCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B14717-D3FE-4883-BB2C-2ECC83F3CCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B14717-D3FE-4883-BB2C-2ECC83F3CCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B14717-D3FE-4883-BB2C-2ECC83F3CCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913402DE-A062-42CB-856A-56DF9F6623B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913402DE-A062-42CB-856A-56DF9F6623B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913402DE-A062-42CB-856A-56DF9F6623B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913402DE-A062-42CB-856A-56DF9F6623B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61011F15-5A7F-4DDC-A75B-2EB0C63016B1}
+	EndGlobalSection
+EndGlobal
